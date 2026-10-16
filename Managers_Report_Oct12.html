@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manager's Report — October 12</title>
+<style>
+:root{
+  --bg:#062f25; --bg2:#084637; --panel:#0b5a46; --panel2:#0e674f;
+  --accent:#b8d97a; --gold:#d7c77a; --text:#f4f7ef; --muted:#bfd0c8;
+  --line:rgba(255,255,255,.14); --danger:#e8a49a; --warn:#efd28a; --good:#9bd3a7;
+}
+*{box-sizing:border-box} body{margin:0;background:#031e18;color:var(--text);font-family:Segoe UI,Arial,sans-serif}
+.deck{max-width:1280px;margin:auto}.slide{min-height:100vh;padding:58px 70px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--bg),#041f19 72%)}
+.slide:before{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(184,217,122,.12);border-radius:50%;right:-170px;top:-170px}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:14px}
+h1{font-size:58px;line-height:1.03;margin:14px 0 18px;max-width:950px} h2{font-size:38px;margin:0 0 28px} h3{margin:0 0 9px;font-size:20px}
+.subtitle{font-size:20px;color:var(--muted);max-width:850px}.date{margin-top:30px;color:var(--gold);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,rgba(14,103,79,.92),rgba(6,62,49,.95));border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 14px 35px rgba(0,0,0,.16)}
+.card p,.card li{color:#d8e4de;line-height:1.5}.card ul{margin:8px 0 0;padding-left:20px}.label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);margin-bottom:10px;font-weight:700}
+ul.clean{list-style:none;padding:0;margin:0}.clean li{padding:11px 0;border-bottom:1px solid var(--line)}.clean li:last-child{border-bottom:0}
+.status{display:inline-block;border-radius:999px;padding:5px 10px;font-size:11px;font-weight:700;margin-left:6px;background:rgba(155,211,167,.14);color:var(--good)}
+.status.warn{color:var(--warn);background:rgba(239,210,138,.12)} .status.alert{color:var(--danger);background:rgba(232,164,154,.12)}
+.quote{border-left:4px solid var(--accent);padding:10px 20px;color:#e7eee9;font-size:18px}
+.footer{position:absolute;bottom:22px;left:70px;right:70px;display:flex;justify-content:space-between;color:#7fa398;font-size:11px}
+.big{font-size:30px;font-weight:700;color:var(--accent)} .small{font-size:13px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:rgba(0,0,0,.12);border-radius:12px;overflow:hidden}th,td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:1px}
+@media(max-width:800px){.slide{padding:40px 25px}.grid,.grid3{grid-template-columns:1fr}h1{font-size:42px}h2{font-size:31px}.footer{left:25px;right:25px}}
+@media print{.slide{page-break-after:always;min-height:100vh}}
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="slide">
+
+  <h1>K&K Island Pride Supermarket</h1>
+  <div class="kicker">Management Briefing</div>
+  <h1>Manager’s Report</h1>
+  <div class="subtitle">Store Operations • Projects • Government Programs • HR • IT • Online Shopping</div>
+  <div class="date">October 12 • 5:30 PM</div>
+  <div class="footer"><span>CONFIDENTIAL — K&K MANAGEMENT USE</span><span>01</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">01 — Store Operation</div><h2>Delayed Shipments</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Pacific Shipping INC.</span><h3>NPDL</h3><p>Westcoast → Salome → Majuro</p><span class="status warn">Delayed</span></div>
+    <div class="card"><span class="label">Matson</span><h3>Kwajalein — Chartered Shipment</h3><p>Refrigeration breakdown affecting <b>22 chill/frozen containers</b>.</p><span class="status alert">Operational issue</span></div>
+    <div class="card"><span class="label">Schedule</span><h3>Omitted Sailings</h3><p>This year: June / August / November ship schedule omitted.</p></div>
+    <div class="card"><span class="label">November</span><h3>Kyowa Falcon V075</h3><p>Omitted due to typhoons, port congestion and slow stevedoring. Containers moved to <b>Eagle V-035B</b>.</p></div>
+  </div>
+  <div class="footer"><span>STORE OPERATION</span><span>02</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">01 — Store Operation</div><h2>Customs, Stevedoring & Documentation</h2>
+  <div class="grid3">
+    <div class="card"><span class="label">Custom</span><h3>Documentation</h3><p>Continue coordination and completion of required shipment documentation.</p></div>
+    <div class="card"><span class="label">Stevedoring</span><h3>Majuro Marine</h3><p>Monitor documentation and movement requirements for incoming containers.</p></div>
+    <div class="card"><span class="label">Priority</span><h3>Continuity</h3><p>Minimize delays through earlier documentation, shipment tracking and contingency planning.</p></div>
+  </div>
+  <div class="footer"><span>STORE OPERATION</span><span>03</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">02 — Power & Weather</div><h2>Infrastructure & Emergency Response</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Power Outage / Weather</span><h3>Server Damage</h3><p>Power/weather event damaged the server. A temporary unit was set up to maintain operations.</p></div>
+    <div class="card"><span class="label">BOG Genset</span><h3>Overheating — Restored</h3><p>Genset would not shut off. Battery was unplugged, injection pump bled, radiator filled with coolant/water, and unit returned to operation.</p><span class="status">Operational</span></div>
+    <div class="card"><span class="label">KK Genset</span><h3>Restoration & General Service</h3><p>Restoration and general service underway, including replacement requirements.</p><span class="status warn">Service</span></div>
+    <div class="card"><span class="label">Water</span><h3>Catchment & MSWC</h3><p>Water catchment leaks being repaired. No salt water available from MSWC; catchment water is being used.</p></div>
+  </div>
+  <div class="footer"><span>INFRASTRUCTURE</span><span>04</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">03 — Staff Housing & Facilities</div><h2>Repairs, Tenants & Property</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Staff Housing</span><h3>AC & Plumbing</h3><ul><li>Replacement of AC unit.</li><li>Two rooms leaking from second floor.</li><li>Ceiling opened to repair plumbing.</li></ul></div>
+    <div class="card"><span class="label">Rain Deluge</span><h3>Major Roof Leaks</h3><p>Major leaks affected Lagoon tenants. Roof repairs required for:</p><ul><li>Ria M80</li><li>David Strauss</li><li>7*North</li></ul></div>
+    <div class="card"><span class="label">Solar</span><h3>Replacement Solar Panel</h3><p>Replacement solar panel completed by Alex.</p><span class="status">Complete</span></div>
+    <div class="card"><span class="label">Water Catchment</span><h3>Leak Repairs</h3><p>Repair leaks to improve reliability of the catchment system.</p></div>
+  </div>
+  <div class="footer"><span>FACILITIES</span><span>05</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">04 — Pending Projects</div><h2>Near-Term Project Pipeline</h2>
+  <div class="grid3">
+    <div class="card"><span class="label">Pending</span><h3>Secondary Front Door</h3><p>Installation to be scheduled.</p></div>
+    <div class="card"><span class="label">Pending</span><h3>25 Ton AC</h3><p>Replace existing 20-ton unit. Existing 20-ton unit to be relocated to Lagoon side. Arrival expected November.</p></div>
+    <div class="card"><span class="label">Pending</span><h3>Gondola Replacement</h3><p>To be scheduled.</p></div>
+  </div>
+  <div class="footer"><span>PROJECTS</span><span>06</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">05 — Proposed Capital Improvements</div><h2>Recommended Projects</h2>
+  <div class="grid">
+    <div class="card"><ul class="clean">
+      <li>Parking lot resurfacing / expansion <span class="small">(move rock wall)</span></li>
+      <li>Staff housing extension for new recruits</li>
+      <li>Store flooring replacement</li>
+      <li>Additional storage freezer space — 1,250 / 50×25 Beverage Warehouse</li>
+    </ul></div>
+    <div class="card"><ul class="clean">
+      <li>Replacement gensets — KNK and BOG units <span class="small">(old)</span></li>
+      <li>Restoration / repainting of the building</li>
+      <li>Sino Soar solar system — additional batteries</li>
+      <li>Solar system ROI review</li>
+    </ul></div>
+  </div>
+  <div class="footer"><span>CAPITAL PLANNING</span><span>07</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">06 — Lease</div><h2>Tenant & Lease Management</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Current Leases</span><ul><li>ASC / 2 room</li><li>Lometo Philippo</li><li>Majuro Computer</li><li>Most tenants: running late</li></ul></div>
+    <div class="card"><span class="label">BOG</span><h3>New Lease — Updated Rate</h3><p>New lease updated rate is pending final concern regarding <b>termination of lease</b>.</p><div class="quote">Clarify whether the termination framework should be 30 / 60 / 90 days.</div></div>
+  </div>
+  <div class="footer"><span>LEASE MANAGEMENT</span><span>08</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">07 — Government Programs</div><h2>ENRA & Payment Programs</h2>
+  <div class="grid">
+    <div class="card"><span class="label">ENRA</span><h3>Check Cashing</h3><p>Use the store to cash ENRA checks.</p></div>
+    <div class="card"><span class="label">LOMALO</span><h3>Direct Payment</h3><p>Store setup to accept LOMALO App direct payments to BOG account. Current use is limited; establish a designated lane.</p></div>
+    <div class="card"><span class="label">PRB</span><h3>Program Readiness</h3><p>PRB is not ready.</p><span class="status warn">Pending</span></div>
+  </div>
+  <div class="footer"><span>GOVERNMENT PROGRAMS</span><span>09</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">08 — Extraordinary Distribution</div><h2>Community Distribution & Vouchers</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Likiep Atoll</span><h3>$53K Delivered</h3><p>$53K delivered this last week. Main concern is the transport arrangement and holding of inventory.</p></div>
+    <div class="card"><span class="label">Vouchers</span><h3>Processing</h3><p>Current processing is not friendly and should be reviewed for simplicity and speed.</p></div>
+    <div class="card"><span class="label">Rongelap</span><h3>Food Basket</h3><p>Recommendation: revive the food basket program.</p></div>
+    <div class="card"><span class="label">Enewetak</span><h3>Three Classifications</h3><p>School supplies • Clothing for kids • Infants</p><p>Purchases must be approved before goods are released to the recipient.</p></div>
+  </div>
+  <div class="footer"><span>COMMUNITY PROGRAMS</span><span>10</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">09 — IOM / Returnees</div><h2>Procurement Support</h2>
+  <div class="card">
+    <span class="label">IOM</span>
+    <h3>Returnee Assistance</h3>
+    <p>The IOM agent is purchasing items for the recipient. Continue coordination to ensure purchasing, approvals and delivery align with program requirements.</p>
+  </div>
+  <div class="footer"><span>GOVERNMENT / COMMUNITY PROGRAMS</span><span>11</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">10 — HR</div><h2>Workforce & Recruitment</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Local Hiring</span><h3>Service & Attendance</h3><p>Local hiring remains poor. Habitual T&A issues continue. Consider recruiting outside the local market if needed to improve business performance and service.</p></div>
+    <div class="card"><span class="label">Anchor Overseas Worker Agency</span><h3>DMW Requirement</h3><p>Authentication requires a copy of a blank company contract with signatories of Jerry and Maria.</p></div>
+    <div class="card"><span class="label">AGM / Encoder</span><h3>Recruitment Ad</h3><p>Redo the recruitment advertisement under K&amp;K and ensure it contains no PII.</p></div>
+    <div class="card"><span class="label">Employment</span><h3>Agreements & Direct Hire</h3><p>Clarify compensatory agreement, direct-hire process and accommodation requirements.</p></div>
+  </div>
+  <div class="footer"><span>HUMAN RESOURCES</span><span>12</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">11 — HR / Leadership</div><h2>Personnel & Transfer Considerations</h2>
+  <div class="grid3">
+    <div class="card"><span class="label">Personnel</span><h3>Damian Milne</h3><p>Personnel / recruitment matter.</p></div>
+    <div class="card"><span class="label">Personnel</span><h3>Rose Murphy</h3><p>Personnel / recruitment matter.</p></div>
+    <div class="card"><span class="label">Finance Leadership</span><h3>Transfer of CFO / Accountant</h3><p>Recommendation: avoid premature action. Consider transfer after two years to avoid repeating transfer and renewal issues before the term is completed.</p></div>
+  </div>
+  <div class="footer"><span>HUMAN RESOURCES</span><span>13</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">12 — IT</div><h2>SAP B1 → LOC SMS Integration</h2>
+  <div class="grid">
+    <div class="card"><span class="label">Integration</span><h3>SAP B1 / LOC SMS</h3><p>Coordinate integration between the two systems under the Boni/CMI contract.</p></div>
+    <div class="card"><span class="label">Operating Model</span><h3>System Responsibilities</h3><ul><li><b>LOC:</b> Sales operation</li><li><b>SAP B1:</b> Accounting</li><li><b>SAP B1:</b> Main system</li></ul></div>
+    <div class="card" style="grid-column:1/-1"><span class="label">Phase One</span><h3>Present System Requirements</h3><p>Present our system requirements to ANSI and SMS and establish the integration requirements, ownership and operating workflow.</p></div>
+  </div>
+  <div class="footer"><span>INFORMATION TECHNOLOGY</span><span>14</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">13 — Online Shopping</div><h2>Expand the Market Beyond Majuro</h2>
+  <div class="card">
+    <span class="label">Opportunity</span>
+    <h3>Marshallese Customers — Local & Overseas</h3>
+    <p>Develop an online shopping channel to tap into the Marshallese customer market living abroad as well as locally.</p>
+    <p>The breadth of the WorldPay system provides an opportunity to open and expand the market through online payments and broader customer reach.</p>
+  </div>
+  <div class="footer"><span>GROWTH INITIATIVE</span><span>15</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">Management Focus</div><h2>Priority Actions</h2>
+  <table>
+    <tr><th>Priority</th><th>Action</th><th>Focus</th></tr>
+    <tr><td>01</td><td>Stabilize shipping & cold-chain risks</td><td>Shipment visibility, contingency planning, refrigeration issues</td></tr>
+    <tr><td>02</td><td>Protect critical infrastructure</td><td>Gensets, server, water catchment, roof/plumbing</td></tr>
+    <tr><td>03</td><td>Close pending projects</td><td>AC, front door, gondola and facility repairs</td></tr>
+    <tr><td>04</td><td>Strengthen workforce</td><td>Recruitment quality, T&A, overseas hiring and agreements</td></tr>
+    <tr><td>05</td><td>Modernize systems</td><td>SAP B1 / LOC integration and online shopping</td></tr>
+    <tr><td>06</td><td>Grow customer reach</td><td>WorldPay-enabled online sales for local and overseas customers</td></tr>
+  </table>
+  <div class="footer"><span>MANAGEMENT PRIORITIES</span><span>16</span></div>
+</section>
+
+<section class="slide">
+  <div class="kicker">Closing</div>
+  <h1>Thank You</h1>
+  <div class="subtitle">Manager’s Report • October 12 • 5:30 PM</div>
+  <div class="footer"><span>CONFIDENTIAL — MANAGEMENT USE</span><span>17</span></div>
+</section>
+
+</div>
+</body>
+</html>
